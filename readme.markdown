@@ -12,10 +12,10 @@ trying to set up Jupyter and dependencies locally, unless you already have it.
 
 Bash:
 ```bash
-docker run --rm -it -p 8888:8888 -v "$(pwd):/home/jovyan/work" jupyter/scipy-notebook:e736784a1a8f
+docker run --rm -it -p 8888:8888 -v "$(pwd):/home/jovyan/work" jupyter/scipy-notebook:98f275e5347e
 ```
 
 Fish:
 ```fish
-docker run --rm -it -p 8888:8888 -v pwd:/home/jovyan/work jupyter/scipy-notebook:e736784a1a8f
+docker run --rm -it -p 8888:8888 -v (pwd):/home/jovyan/work jupyter/scipy-notebook:98f275e5347e
 ```
